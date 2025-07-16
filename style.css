@@ -1,0 +1,31 @@
+#main {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column-reverse;
+  flex-flow: row-reverse wrap;
+  flex-wrap: wrap;
+ justify-content: center;
+ align-items: center;
+ /* align-content:center */
+ gap: 20px;
+}
+#main div {
+     /* flex: 1;   */
+     /* align-self: baseline; */
+   /* flex: auto;*/
+padding: 41px;}
+
+ #c1{
+background-color:#ff7f50;
+/* flex: 2; Takes double the width of c2 and c3 */
+  }
+  #c2{
+    background-color:#add8e6;
+    /* order: 1; */
+    /* flex: 1; */
+    }
+  #c3{
+    background-color:#90ee90;
+    /* flex: 1; */}
